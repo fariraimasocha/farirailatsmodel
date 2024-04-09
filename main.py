@@ -7,7 +7,7 @@ from ultralytics import YOLO
 model = YOLO('Weights/best.pt')
 
 # ESP32-CAM camera URL
-url = 'http://192.168.199.13/cam-mid.jpg'
+url = 'http://192.168.18.13/cam-mid.jpg'
 
 while True:
     img_resp = urllib.request.urlopen(url)
